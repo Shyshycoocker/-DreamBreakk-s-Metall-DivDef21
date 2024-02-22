@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IncludePackageReferencesDuringMarkupCompilation>true</IncludePackageReferencesDuringMarkupCompilation>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DataTablesReports" Version="1.2.5" />
+    <PackageReference Include="DevExpress.Win.Design" Version="23.1.5" />
+    <PackageReference Include="devexpress.wpf.charts" Version="23.1.5" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="23.1.5" />
+    <PackageReference Include="devexpress.wpf.grid.core" Version="23.1.5" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="23.1.5" />
+    
+  </ItemGroup>
+
+</Project>
